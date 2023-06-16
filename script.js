@@ -17,7 +17,7 @@ function getComputerChoice() {
 let playerScore = 0
 let computerScore = 0
 
-function game() {
+function createGame() {
     for (let i = 0; i < 5; i++) {
         playRound()
     }
@@ -50,5 +50,5 @@ function game() {
 
 }
 
-game()
+createGame()
 
