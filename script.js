@@ -1,4 +1,3 @@
-// function creates a random selection for the computer
 function getComputerChoice() {
     let randomChoice = Math.floor(Math.random() * 3)
 
@@ -18,14 +17,11 @@ function getComputerChoice() {
 let playerScore = 0
 let computerScore = 0
 
-// function creates a game with 5 rounds each game
 function game() {
-
     for (let i = 0; i < 5; i++) {
         playRound()
     }
     
-	// function executes when player attempts to play the game
 	function playRound(playerSelection, computerSelection) {
         playerSelection = prompt().toLowerCase()
         computerSelection = getComputerChoice()
