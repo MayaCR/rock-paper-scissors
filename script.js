@@ -50,7 +50,6 @@ function playRound(playerSelection, computerSelection) {
 };
 
 function determineWinner () {
-    
     if (playerScore === 5 && computerScore < 5) {
         winnerHolder.textContent = 'Congratulations! You won the game!';
         gameButtons.replaceChildren(resetButton)
