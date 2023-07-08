@@ -13,6 +13,7 @@ let computerScore = 0;
 playerScoreHolder.textContent = playerScore;
 computerScoreHolder.textContent = computerScore;
 resetButton.textContent = 'Reset Game';
+resetButton.classList.add('button-style')
 
 function getComputerChoice() {
     let randomChoice = Math.floor(Math.random() * 3);
