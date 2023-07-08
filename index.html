@@ -7,23 +7,47 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <h1>Rock, Paper, Scissors</h1>
-        <p class="instructions">Choose your weapon of choice to defeat the computer. First person (or machine) to get a total of 5 points wins.</p>
-    </div>
+    <div class="container">
+        <div class="left-section section-content">
+            <div class="header">
+                <h1>Let's Play</h1>
+                <h1 class="big-header">Rock, Paper, Scissors</h1>
+            </div>
 
-    <div class="results">
-        <p id="winner">Who's going to be the winner?</p>
-        <p>Player's Score</p>
-        <p id="player-score"></p>
-        <p>Computer's Score</p>
-        <p id="computer-score"></p>
-    </div>
-    
-    <div class="game-buttons">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+            <div class="instructions">
+                <h2>Instructions</h2>
+                <p>Choose your weapon of choice to defeat the computer. First person (or machine) to get a total of 5 points wins.</p>
+                <br>
+                <ul>
+                    <p>The winner of each round is based on these 3 things:</p>
+                    <li>rock smashes scissors</li>
+                    <li>scissors cuts paper</li>
+                    <li>paper covers rock</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-section section-content">
+            <div class="results">
+                <p id="winner">Who's going to be the winner?</p>
+                <div class="scores-container">
+                    <div class="score">
+                        <p>Player's Score</p>
+                        <p id="player-score" class="score-style"></p>
+                    </div>
+                    <div class="score">
+                        <p>Computer's Score</p>
+                        <p id="computer-score" class="score-style"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-buttons">
+                <button id="rock" class="button-style">Rock</button>
+                <button id="paper" class="button-style">Paper</button>
+                <button id="scissors" class="button-style">Scissors</button>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
