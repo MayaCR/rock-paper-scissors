@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(39, 55, 77);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(39, 55, 77);
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    padding: 6%;
+    flex: 1 1;
+    background-color: white;
+}
+
+.header {
+    margin-bottom: 2em;
+}
+
+.big-header {
+    font-size: 40px;
+    margin-top: 0.2em;
+    margin-left: -3px;
+}
+
+.left-section {
+    flex: 1 1 20%;
+}
+
+.right-section {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+#winner {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.scores-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;
+    margin-bottom: 2em;
+}
+
+.score-style {
+    font-size: 80px;
+    padding: 10px 0;
+}
+
+.game-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button-style {
+    padding: 3.4em 3.4em;
+    margin: 1em 1em;
+    text-align: center;
+    background-color: rgb(221, 230, 237);
+    color: rgb(39, 55, 77);
+}
