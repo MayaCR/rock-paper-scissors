@@ -62,15 +62,14 @@ h2 {
 #winner {
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 .scores-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4em;
-    margin-bottom: 2em;
+    gap: 8%;
 }
 
 .score-style {
@@ -84,8 +83,8 @@ h2 {
 }
 
 .button-style {
-    padding: 3.4em 3.4em;
-    margin: 1em 1em;
+    padding: 3.4em;
+    margin: 1em;
     text-align: center;
     background-color: rgb(221, 230, 237);
     color: rgb(39, 55, 77);
@@ -96,6 +95,10 @@ h2 {
         height: auto;
     }
 
+    .right-section {
+        padding-top: 12%;
+    }
+
 	.game-buttons {
         display: flex;
         flex-direction: column;
@@ -103,7 +106,7 @@ h2 {
     }
 
     .button-style {
-        padding: 2em 2em;
-        margin: 1em 1em;
+        padding: 1em;
+        margin: 1em;
     }
 }
