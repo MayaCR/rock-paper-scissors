@@ -90,3 +90,15 @@ h2 {
     background-color: rgb(221, 230, 237);
     color: rgb(39, 55, 77);
 }
+
+@media screen and (max-width: 600px) {
+	.game-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-content {
+        height: auto;
+    }
+}
