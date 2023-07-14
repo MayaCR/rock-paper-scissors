@@ -10,7 +10,7 @@ This project is a web version of the classic game Rock, Paper, Scissors. The use
 * CSS
 * Javascript
 
-## Struggles
+## Challenges
 
 * Organizing and creating functions that would allow for tracking of multiple actions
 * Reducing the amount of repetitive code used
